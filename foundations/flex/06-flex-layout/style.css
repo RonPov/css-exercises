@@ -24,3 +24,19 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+.left-links, .right-links {
+  display: flex;
+  gap: 20px;
+}
